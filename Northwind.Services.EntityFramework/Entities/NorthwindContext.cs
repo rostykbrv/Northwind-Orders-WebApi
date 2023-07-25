@@ -24,5 +24,4 @@ public class NorthwindContext : DbContext
     public DbSet<Shipper> Shippers { get; set; }
 
     public DbSet<Employee> Employees { get; set; }
-
 }
